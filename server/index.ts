@@ -57,7 +57,7 @@ app.use((req, res, next) => {
   }
 
   const port = parseInt(process.env.PORT || "3001");
-  server.listen(port, "localhost", () => {
+  server.listen(port, "127.0.0.1", () => {
     console.log(`Server running on port ${port}`);
   });
 })();
