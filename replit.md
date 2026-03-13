@@ -1,10 +1,11 @@
-# Project Overview
+# OptiLife Wellbeing - Project Overview
 
-A full-stack web application built with:
+A full-stack wellness e-commerce website built with:
 - **Frontend**: React 19 + Vite + TailwindCSS v4 + shadcn/ui components + Wouter routing
 - **Backend**: Express.js (TypeScript via tsx)
 - **Database**: PostgreSQL via Drizzle ORM
 - **State Management**: TanStack Query
+- **Deployment**: Ready for Netlify
 
 ## Project Structure
 
@@ -50,7 +51,18 @@ script/
 
 ## Architecture Notes
 
-- Path aliases: `@/` → `client/src/`, `@shared/` → `shared/`
+- Path aliases: `@/` → `client/src/`, `@shared/` → `shared/`, `@assets/` → `attached_assets/`
 - Database uses Drizzle ORM with PostgreSQL
 - shadcn/ui component library (new-york style)
 - Session auth via passport-local (ready to use)
+- Logo: `/public/optilife-logo.png` (leaf & heart icon)
+- Auto scroll-to-top on page navigation
+- Shopping cart functionality with drawer UI
+- Netlify deployment configured via `netlify.toml`
+
+## Recent Updates
+
+- ✅ Added OptiLife wellness website branding
+- ✅ Implemented scroll-to-top on tab clicks
+- ✅ Updated navbar with new logo
+- ✅ Configured for Netlify deployment

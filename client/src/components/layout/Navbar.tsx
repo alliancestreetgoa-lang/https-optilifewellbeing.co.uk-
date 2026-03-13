@@ -3,7 +3,6 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Menu, X, ShoppingBag } from "lucide-react";
 import { useState } from "react";
-import logo from "@assets/Logo_PNG_AA_1768467046990.png";
 import { useCart } from "@/lib/cart";
 
 export function Navbar() {
@@ -27,7 +26,7 @@ export function Navbar() {
         <Link href="/">
           <div className="flex items-center gap-2 group cursor-pointer">
             <img 
-              src={logo}
+              src="/optilife-logo.png"
               alt="Optilifewellbeing" 
               className="h-12 w-auto transition-transform duration-300 group-hover:scale-105"
             />
